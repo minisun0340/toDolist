@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to Do list</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-size: 12px;
+        }
+
+        .home-page {
+            width: 380px;
+            border: 2px solid red;
+            margin: 300px auto;
+        }
+
+        label {
+            font-size: 20px;
+        }
+
+        input {
+            outline: 0;
+            border: 0;
+            border-radius: 4px;
+            background: white;
+            box-shadow: 0 0 1px 0 #b7b4d9;
+            width: 100%;
+            margin: 0 0 15px;
+            padding: 15px;
+            box-sizing: border-box;
+            display: inline;
+        }
+
+        .home-page li {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="home-page">
+        <div class="inputDiv">
+            <label for="todayToDo">오늘의 할 일을 입력해보세요</label><br>
+            <input type="text" id="todayToDo">
+        </div>
+        <div class="showDiv">
+            <ul>
+                <li>카페가기</li>
+                <li>프로젝트 시작하기</li>
+                <li>계획짜기</li>
+                <li>SQL 공부하기</li>
+                <li>전화영어</li>
+            </ul>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
